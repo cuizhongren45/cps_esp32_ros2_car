@@ -2,5 +2,7 @@
 esp32做主控，控制simplefoc电机，采集mpu6050，as5600编码器，和ros2-foxy通信
 
 基于灯哥开源的simplefoc的电机闭环程序
+
 所以需要先安装灯哥simplefoc的开发环境
+
 arduino+simplefoc+esp32
