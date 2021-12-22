@@ -1,11 +1,4 @@
-/**
-  Deng's FOC 闭环速度控制例程 测试库：SimpleFOC 2.1.1 测试硬件：灯哥开源FOC V3.0
-  在串口窗口中输入：T+速度，就可以使得两个电机闭环转动
-  比如让两个电机都以 10rad/s 的速度转动，则输入：T10
-  在使用自己的电机时，请一定记得修改默认极对数，即 BLDCMotor(7) 中的值，设置为自己的极对数数字
-  程序默认设置的供电电压为 16.8V,用其他电压供电请记得修改 voltage_power_supply , voltage_limit 变量中的值
-  默认PID针对的电机是 GB6010 ，使用自己的电机需要修改PID参数，才能实现更好效果
-*/
+
 #include <SimpleFOC.h>
 #include <SoftwareSerial.h>
 #include <Wire.h>
